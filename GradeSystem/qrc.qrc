@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/Win32">
+        <file>Resources/Win32/ic_cutover_close.png</file>
+        <file>Resources/Win32/ic_enlarge.png</file>
+        <file>Resources/Win32/ic_expand.png</file>
+        <file>Resources/Win32/ic_gaotu.png</file>
+        <file>Resources/Win32/ic_green_correct.png</file>
+        <file>Resources/Win32/ic_navigation_help.png</file>
+        <file>Resources/Win32/ic_next.png</file>
+        <file>Resources/Win32/ic_phone.png</file>
+        <file>Resources/Win32/ic_previous.png</file>
+        <file>Resources/Win32/ic_red_error.png</file>
+        <file>Resources/Win32/ic_return.png</file>
+        <file>Resources/Win32/ic_shrink.png</file>
+        <file>Resources/Win32/ic_sidebar_arrow.png</file>
+        <file>Resources/Win32/ic_sidebar_checked.png</file>
+        <file>Resources/Win32/ic_sidebar_color.png</file>
+        <file>Resources/Win32/ic_sidebar_image.png</file>
+        <file>Resources/Win32/ic_sidebar_pencil.png</file>
+        <file>Resources/Win32/ic_sidebar_shape.png</file>
+        <file>Resources/Win32/ic_sidebar_text.png</file>
+        <file>Resources/Win32/ic_sort.png</file>
+        <file>Resources/Win32/ic_square_selected.png</file>
+        <file>Resources/Win32/ic_square_unselected.png</file>
+        <file>Resources/Win32/ic_turn left.png</file>
+        <file>Resources/Win32/ic_turn right.png</file>
+        <file>Resources/Win32/delete.png</file>
+        <file>Resources/Win32/bohui.png</file>
+        <file>Resources/Win32/shangqiang.png</file>
+        <file>Resources/Win32/yitongguo.png</file>
+        <file>Resources/Win32/youxiu.png</file>
+        <file>Resources/Win32/sound_select.png</file>
+        <file>Resources/Win32/input_select.png</file>
+        <file>Resources/Win32/input.png</file>
+        <file>Resources/Win32/sound.png</file>
+        <file>Resources/Win32/expand.png</file>
+        <file>Resources/Win32/ic_put away.png</file>
+        <file>Resources/Win32/pause.png</file>
+        <file>Resources/Win32/play.png</file>
+        <file>Resources/Win32/ic_click_recording.png</file>
+        <file>Resources/Win32/ic_recording_process.png</file>
+        <file>Resources/Win32/ic_increase.png</file>
+        <file>Resources/Win32/ic_top bar_narrow.png</file>
+        <file>Resources/Win32/ic_drawing_beeline.png</file>
+        <file>Resources/Win32/ic_drawing_round.png</file>
+        <file>Resources/Win32/ic_drawing_square.png</file>
+        <file>Resources/Win32/ic_drawing_triangle.png</file>
+        <file>Resources/timg.jpg</file>
+    </qresource>
+</RCC>

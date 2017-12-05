@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainForm</class>
+ <widget class="QWidget" name="MainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>848</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>848</width>
+    <height>663</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border: 1px solid #6D6D6E;</string>
+  </property>
+  <widget class="QWidget" name="rightWgt" native="true">
+   <property name="geometry">
+    <rect>
+     <x>792</x>
+     <y>9</y>
+     <width>47</width>
+     <height>645</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>47</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>47</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #808080;
+background: rgba(0,0,0,0.50);
+border: 1px solid #6D6D6E;</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_sidebar_pencil.png</normaloff>:/Win32/Resources/Win32/ic_sidebar_pencil.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_sidebar_text.png</normaloff>:/Win32/Resources/Win32/ic_sidebar_text.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_sidebar_arrow.png</normaloff>:/Win32/Resources/Win32/ic_sidebar_arrow.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>8</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>8</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>▼▼▼</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbt_line">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Agency FB&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_drawing_beeline.png</normaloff>:/Win32/Resources/Win32/ic_drawing_beeline.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbt_Rect">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_sidebar_shape.png</normaloff>:/Win32/Resources/Win32/ic_sidebar_shape.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>8</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>8</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>▼▼▼</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbt_triangle">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_drawing_triangle.png</normaloff>:/Win32/Resources/Win32/ic_drawing_triangle.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbt_circle">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_drawing_round.png</normaloff>:/Win32/Resources/Win32/ic_drawing_round.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_sidebar_checked.png</normaloff>:/Win32/Resources/Win32/ic_sidebar_checked.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_sidebar_image.png</normaloff>:/Win32/Resources/Win32/ic_sidebar_image.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_Color">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_sidebar_color.png</normaloff>:/Win32/Resources/Win32/ic_sidebar_color.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbt_Blue">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #37A4F5; 
+border-bottom-color: rgb(138, 80, 255);
+gridline-color: rgb(0, 0, 0);
+border-width: 9px;  
+border-color: rgb(106, 106, 106);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Maximum</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>1</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbt_Green">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #1DB954;
+border-bottom-color: rgb(138, 80, 255);
+gridline-color: rgb(0, 0, 0);
+border-width: 9px;  
+border-color: rgb(106, 106, 106);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>8</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>8</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>▼▼▼</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="127">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>选择</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_turn left.png</normaloff>:/Win32/Resources/Win32/ic_turn left.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="toolButton_10">
+      <property name="minimumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>47</width>
+        <height>47</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../qrc.qrc">
+        <normaloff>:/Win32/Resources/Win32/ic_turn right.png</normaloff>:/Win32/Resources/Win32/ic_turn right.png</iconset>
+      </property>
+      <property name="popupMode">
+       <enum>QToolButton::MenuButtonPopup</enum>
+      </property>
+      <property name="arrowType">
+       <enum>Qt::UpArrow</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>47</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="control_bar" native="true">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>590</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">opacity: 0.8;
+background: #404040;
+border-radius: 100px;</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pbt_prePage">
+      <property name="styleSheet">
+       <string notr="true">opacity: 0.8;
+color: rgb(255, 255, 255);
+background: #404040;
+border-radius: 100px;</string>
+      </property>
+      <property name="text">
+       <string>打开文件</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="PaintView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>781</width>
+     <height>641</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>rightWgt</zorder>
+  <zorder>graphicsView</zorder>
+  <zorder>control_bar</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PaintView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">../GradeSystem/UI/GradeGraphics/PaintView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../qrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
